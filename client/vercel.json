@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "https://codementor-backend-c0b4.onrender.com/api/:path*"
+    }
+  ]
+}
