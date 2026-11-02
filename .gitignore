@@ -1,0 +1,106 @@
+# ==========================================
+# Dependencies & Package Managers
+# ==========================================
+node_modules/
+*/node_modules/
+.pnp
+.pnp.js
+package-lock.json.bak
+
+# ==========================================
+# Environment Variables & Secrets
+# ==========================================
+.env
+.env.*
+*.env
+*.env.local
+*.env.*.local
+client/.env
+client/.env.*
+server/.env
+server/.env.*
+# Keep example templates committed
+!.env.example
+!client/.env.example
+!server/.env.example
+
+# ==========================================
+# Build Artifacts & Distribution
+# ==========================================
+dist/
+dist-ssr/
+build/
+out/
+client/dist/
+*.local
+
+# ==========================================
+# Local Database & Dynamic Runtime State
+# ==========================================
+# Local flat-file database (prevents committing active sessions, user emails & invitations)
+server/database/storage.json
+server/database/storage.json.tmp
+server/database/*.tmp
+# Vector embedding cache generated at runtime
+server/database/embedding_cache.json
+
+# ==========================================
+# Cache & Generated Media
+# ==========================================
+server/cache/
+cache/
+*.wav
+*.mp3
+
+# ==========================================
+# Code Execution Sandbox & Compiler Outputs
+# ==========================================
+temp/
+server/temp/
+*.class
+*.exe
+*.o
+*.obj
+*.out
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+.pytest_cache/
+
+# ==========================================
+# Logs & Debugging
+# ==========================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ==========================================
+# Personal & Generated Documents
+# ==========================================
+*.pdf
+
+# ==========================================
+# OS & Editor Artifacts
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

@@ -1,0 +1,21 @@
+{
+  "profiles": [],
+  "colleges": [],
+  "user_roles": [],
+  "college_admin_invitations": [],
+  "college_memberships": [],
+  "college_join_requests": [],
+  "faculty_assignments": [],
+  "college_courses": [],
+  "course_enrollments": [],
+  "topic_progress": [],
+  "conversations": [],
+  "messages": [],
+  "audit_logs": [],
+  "dsa_submissions": [],
+  "dsa_progress": [],
+  "dsa_activity": [],
+  "xp_transactions": [],
+  "daily_activities": [],
+  "certificates": []
+}

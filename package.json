@@ -1,0 +1,18 @@
+{
+  "name": "ai-programming-platform",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI-Powered Programming Learning Platform - Complete Monorepo",
+  "scripts": {
+    "dev:server": "npm run dev --prefix server",
+    "dev:client": "npm run dev --prefix client",
+    "install:all": "npm install && npm install --prefix server && npm install --prefix client",
+    "start": "node server/server.js"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  },
+  "dependencies": {
+    "@google/genai": "^2.25.0"
+  }
+}
